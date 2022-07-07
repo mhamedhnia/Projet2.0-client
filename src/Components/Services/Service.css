@@ -1,0 +1,102 @@
+.work {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* Grey */
+}
+
+.work-content-left {
+    /* Grey */
+    margin: 130px;
+}
+.work-button {
+    width: 244px;
+    height: 32px;
+}
+.work-button-text {
+    color: #1c1e53;
+    /* Label 01 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    /* Royal Blue */
+}
+.work-icons {
+    padding-top: 5px;
+}
+.icons {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+}
+.work-icon {
+    background: #1c1e53;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.work-title {
+    /* Heading 1 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    /* or 137% */
+
+    /* Dark blue */
+
+    color: #282938;
+}
+.work-title2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: 74px;
+    font-size: 22px;
+
+    /* identical to box height, or 150% */
+
+    /* Dark blue */
+    margin: 0;
+    padding: 0;
+    color: #282938;
+}
+.work-description {
+    /* Body 1 */
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 175% */
+
+    /* Dark blue */
+
+    color: #282938;
+
+    opacity: 0.7;
+}
+.work-content-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card2 {
+    width: 328px;
+    margin: 0;
+    padding: 0;
+}

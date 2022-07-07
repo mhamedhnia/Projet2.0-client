@@ -1,0 +1,166 @@
+footer {
+    background: #1c1e53;
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 209px;
+}
+.footer-container {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-around;
+}
+.logo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+
+    color: #ffffff;
+}
+
+.footer-description {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    width: 500px;
+    line-height: 28px;
+    /* or 175% */
+
+    /* White */
+
+    color: #ffffff;
+
+    opacity: 0.8;
+}
+.footer-description2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    width: 500px;
+    /* Grey */
+
+    color: #f4f6fc;
+
+    opacity: 0.8;
+}
+.footer-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+
+    color: #ffffff;
+}
+
+.footer-link {
+    /* White */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background: #ffffff;
+}
+.footer-copyright {
+    left: 10%;
+    right: 75.12%;
+    top: 87.73%;
+    bottom: 6.54%;
+
+    /* Body 2 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    /* Dark blue */
+
+    color: #282938;
+}
+
+.footer-link-items {
+    display: flex;
+    list-style: none;
+
+    /* Body 2 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    /* Dark blue */
+
+    color: #282938;
+    justify-content: flex-end;
+}
+li {
+    padding: 0 15px;
+}
+/* .footer-container {
+    display: flex;
+    left: 10%;
+    right: 23.88%;
+    top: 19.63%;
+    bottom: 38.24%;
+} */
+
+.footer-info {
+    position: relative;
+    left: 10%;
+    right: 57.69%;
+    top: 61.76%;
+    bottom: 18.81%;
+    /* Yellow */
+
+    background: #fcd980;
+}
+
+.footer-info-title {
+    /* Label 01 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    /* Dark blue */
+
+    color: #282938;
+}
+
+.footer-info-text {
+    /* Body 1 */
+
+    font-family: Poppins;
+
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    /* Dark blue */
+
+    color: #282938;
+
+    opacity: 0.8;
+}
+li:hover {
+    color: #fcd980;
+}

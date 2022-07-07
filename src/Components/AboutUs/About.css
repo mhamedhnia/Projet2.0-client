@@ -1,0 +1,147 @@
+.about {
+    padding: 100px;
+}
+
+.about-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+}
+.about-container-bottom {
+    display: flex;
+    flex-direction: column;
+}
+.about-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.about-title-bottom {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    padding: 0 50px;
+    color: #282938;
+}
+.about-text-bottom {
+    width: 515px;
+    height: 112px;
+
+    /* Body 1 */
+    padding: 0 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    /* Dark blue */
+    text-align: justify;
+    color: #282938;
+
+    opacity: 0.7;
+}
+.about-heading {
+    /* Label 01 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    /* Dark blue */
+
+    color: #282938;
+}
+.img-about {
+    width: 1000px;
+    height: 340px;
+    padding: 60px;
+}
+.about-heading-2 {
+    /* Label 01 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    margin-left: 90px;
+    margin-top: 60px;
+    /* Dark blue */
+
+    color: #282938;
+}
+
+/* .img {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 376px;
+} */
+.about-title {
+    width: 595px;
+
+    /* Heading 1 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    /* or 137% */
+
+    /* Dark blue */
+
+    color: #282938;
+}
+.about-text {
+    width: 484px;
+    height: 84px;
+    left: 160px;
+    top: 463px;
+
+    /* Body 1 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: justify;
+
+    /* Dark blue */
+
+    color: #282938;
+
+    opacity: 0.7;
+}
+.about-img {
+    width: 547px;
+    height: 336px;
+}
+
+.about-img2 {
+    width: 1080px;
+    height: 340px;
+    padding: 20px;
+}

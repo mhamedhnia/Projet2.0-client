@@ -1,0 +1,284 @@
+.contact-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+}
+.contact-section {
+    padding: 0 100px;
+}
+.contact-header {
+    padding: 0 100px;
+}
+.contact-description {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    opacity: 0.7;
+}
+form {
+    width: 1061px;
+    height: 640px;
+    margin: 0 auto;
+}
+label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+}
+.form-group1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.form-group2 {
+    display: flex;
+    margin: 0 60px;
+}
+.form-group3 {
+    margin: 60px;
+}
+input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 32px;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.subject-input {
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 32px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 32px;
+
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 950px;
+    height: 138px;
+}
+/* Get contact*/
+
+.main-container {
+    padding: 30px;
+}
+
+/* CARDS */
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+/*Contact List*/
+.ContactList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*Get contact*/
+
+.list-group {
+    width: 400px !important;
+}
+
+.list-group-item {
+    margin-top: 10px;
+    border-radius: none;
+    background: #002538;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+}
+
+.check {
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.list-group-item:hover .check {
+    opacity: 1;
+}
+
+.about span {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.btn-submit {
+    padding: 10px 58px;
+    margin: 0px 58px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    background: #282938;
+    border-radius: 40px;
+    border: 0;
+}
+
+.btn-submit:hover {
+    background: #535460;
+}
+
+/* Contact List Component */
+
+.container-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120%;
+    color: #232323;
+}
+.table-header {
+    display: flex;
+    justify-content: space-around;
+    background: #1c1e53;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border: 1px solid #1c1e53;
+}
+
+.contacts-email {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    border: 0;
+    background: #fff;
+}
+th {
+    width: 200px;
+}
+.contacts-msg {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    border: 0;
+    background: #fff;
+}
+.contacts-subject {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    border: 0;
+    background: #fff;
+}
+
+.contact-head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120%;
+    font-family: Poppins;
+}
+.table {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Contact Card  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    background: #ffffff;
+}
+.contact-heading {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.contact {
+    display: flex;
+}
+.img-contact {
+    width: 100px;
+    border-radius: 50%;
+}
+.contact-name {
+    width: 194px;
+    height: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000;
+    margin: 4px 0px;
+}
+.contact-subject {
+    width: 194px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin: 4px 0px;
+}
+
+.form-control {
+    width: 1000px;
+}

@@ -1,0 +1,79 @@
+.signin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    margin-bottom: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+
+    color: #000000;
+    margin: 20px;
+    padding: 20px;
+}
+
+.label {
+    margin: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 721px;
+}
+.card-content {
+    margin: 20px;
+    padding: 20px;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 32px;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.btn-login {
+    margin: 20px 0px;
+    /* width: 222px;
+    height: 64px; */
+
+    /* Dark blue */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    background: #282938;
+    border-radius: 40px;
+    border: 0;
+    width: 429px;
+    height: 53px;
+
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+
+.btn-login:hover {
+    background: #535460;
+}
