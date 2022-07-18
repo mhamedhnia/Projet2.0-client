@@ -1,14 +1,11 @@
-import React from "react";
-import ContactList from "../Components/ContactForm/ContactList";
-import NavBar from "../Components/NavBar/NavBar";
+import ContactList from '../Components/ContactForm/ContactList';
+import NavBar from '../Components/NavBar/NavBar';
 
-function ContactPage() {
-    return (
-        <div>
-            <NavBar />
-            <ContactList />
-        </div>
-    );
-}
+const ContactPage = () => (
+  <div>
+    <NavBar />
+    <ContactList />
+  </div>
+);
 
 export default ContactPage;

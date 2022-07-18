@@ -1,39 +1,41 @@
-import React, { useState } from "react";
-import amy from "../../amy.jpg";
-import { useDispatch } from "react-redux";
-import { deleteContact } from "../../JS/actions/contact";
-function ContactC({ contact }) {
-    const dispatch = useDispatch();
-    const [show, setShow] = useState(false);
-    const handleClick = () => {
-        let result = window.confirm("are you sure to delete that?");
-        if (result) {
-            dispatch(deleteContact(contact._id));
-        }
-    };
-    const handleShow = (e) => {
-        e.preventDefault();
-        setShow(!show);
-    };
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable no-alert */
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 
-    return (
-        <>
-            <div className="contact-card" onClick={handleShow}>
-                <div className="contacts">
-                    <div className="contact">
-                        <img className="img-contact" src={amy} alt="contact" />
-                        <div className="contact-details">
-                            <h2 className="contact-name">{contact.name}</h2>
-                            <p className="contact-subject">{contact.subject}</p>
-                            <button onClick={handleClick} className="">
-                                x
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    );
-}
+import amy from '../../amy.jpg';
+import { deleteContact } from '../../JS/actions/contact';
+const ContactC = ({ contact: { _id: id, name, subject } }) => {
+  const dispatch = useDispatch();
+  const [show, setShow] = useState(false);
+  const handleClick = () => {
+    const result = window.confirm('are you sure to delete that?');
+    if (result) {
+      dispatch(deleteContact(id));
+    }
+  };
+  const handleShow = (e) => {
+    e.preventDefault();
+    setShow(!show);
+  };
+
+  return (
+    <div className="contact-card" onClick={handleShow}>
+      <div className="contacts">
+        <div className="contact">
+          <img className="img-contact" src={amy} alt="contact" />
+          <div className="contact-details">
+            <h2 className="contact-name">{name}</h2>
+            <p className="contact-subject">{subject}</p>
+            <button onClick={handleClick} className="" type="submit">
+              x
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default ContactC;
