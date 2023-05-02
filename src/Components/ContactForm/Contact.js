@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+// eslint-disable-next-line import/no-unresolved
 import validator from 'validator';
 
 import { addContact } from '../../JS/actions/contact';
