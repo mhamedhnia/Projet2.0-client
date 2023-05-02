@@ -90,9 +90,7 @@ const Contact = () => {
     <section className="contact-section" id="contact">
       <div className="contact-heading">
         <h2 className="contact-title">Contact Us</h2>
-        <p className="contact-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-        </p>
+        <p className="contact-description"> Veuillez nous contacter pour vos questions.</p>
       </div>
       <form>
         <div className="form-group1">
