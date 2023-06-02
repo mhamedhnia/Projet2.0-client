@@ -30,7 +30,7 @@ const Signin = () => {
         <h2 className="card-title">Sign In</h2>
         <div className="card-content">
           <label>Email</label>
-          <input placeholder="Email" mb={3} type="email" name="email" onChange={handleChange} />
+          <input placeholder="Email" /* mb={3} */ type="email" name="email" onChange={handleChange} />
           <label>Password</label>
           <input placeholder="Password" type="password" name="password" onChange={handleChange} />
 
